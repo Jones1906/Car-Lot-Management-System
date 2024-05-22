@@ -1,63 +1,48 @@
-JT's Used Car Lot Management System
-Welcome to Honest AC's Used Car Lot Management System! This project is a simple yet efficient car lot management system designed to help manage the inventory of cars in a used car lot. It includes functionality for adding cars to the lot, retrieving car details based on their license plates, and processing car inventory data from CSV files.
+# JT'S Car Management
 
-Features
-Car Class: Represents individual cars with attributes such as year, make, and license plate.
-CarLot Class: Manages a collection of cars using a HashMap for efficient retrieval.
-CarLotTest Class: Provides a test suite to read car inventory from a CSV file and search for cars by their license plates.
-Getting Started
-Prerequisites
-Java Development Kit (JDK) 8 or higher
-An IDE or text editor for Java development
-Basic understanding of Java and object-oriented programming
-Project Structure
-Car/Car.java: Defines the Car class.
-CarLot/CarLot.java: Defines the CarLot class.
-CarLotTest/CarLotTest.java: Contains the main class for testing the car lot functionality.
-Usage
-Clone the Repository
+Welcome to JT's  Car Management! This project is designed to manage the inventory of cars at Honest AC's used car lot. It includes functionalities for adding cars to the lot, retrieving car details based on their license plates, and processing car inventory data from CSV files.
 
-bash
-Copy code
-git clone https://github.com/yourusername/used-car-lot-management.git
-cd used-car-lot-management
-Compile the Project
+## Introduction
 
-Ensure you are in the root directory of the project and run:
+Car  Management is a software application developed to streamline the management of car inventory at Honest AC's used car lot. It provides a user-friendly interface for adding, updating, and retrieving car information efficiently.
 
-bash
-Copy code
-javac Car/Car.java CarLot/CarLot.java CarLotTest/CarLotTest.java
-Run the Test Class
+## Features
 
-bash
-Copy code
-java CarLotTest.CarLotTest
-Files
-car_inventory.csv: Contains the car inventory data in CSV format. Ensure this file is in the root directory or update the file path in the CarLotTest class.
-car_search.txt: Contains license plates to search for in the car inventory. Ensure this file is in the root directory or update the file path in the CarLotTest class.
-Example CSV and TXT Files
-car_inventory.csv
-yaml
-Copy code
-2010,Toyota,ABC123
-2015,Honda,XYZ789
-2020,Ford,LMN456
-car_search.txt
-Copy code
-ABC123
-XYZ789
-NOP321
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- **Add Cars**: Easily add new cars to the car lot with details such as year, make, model, and license plate.
+- **Search Cars**: Retrieve car details based on various parameters, including license plate, make, model, and year.
+- **Inventory Management**: Efficiently manage the inventory of cars, including adding, updating, and deleting entries.
+- **CSV Import/Export**: Import car inventory data from CSV files and export data for backup or analysis purposes.
+- **User Authentication**: Secure access to the application with user authentication to prevent unauthorized access.
 
-Acknowledgments
-This project was developed as part of a course assignment for CST8130 - Data Structures at CET - CS Academic Level 3.
-Special thanks to Professor George Kriger for guidance and support.
-Contributing
-Fork the repository
-Create your feature branch (git checkout -b feature/YourFeature)
-Commit your changes (git commit -m 'Add some feature')
-Push to the branch (git push origin feature/YourFeature)
-Open a pull request
-For any questions or suggestions, please contact Jeffin Tom.
+## Getting Started
+
+To get started with Honest AC Car Management, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Install the necessary dependencies as specified in the documentation.
+3. Configure the database connection settings according to your environment.
+4. Run the application and start managing your car inventory.
+
+## Usage
+
+1. **Add Cars**: Use the "Add Car" functionality to add new cars to the inventory by providing relevant details.
+2. **Search Cars**: Utilize the search functionality to retrieve car details based on license plate, make, model, or year.
+3. **Manage Inventory**: Manage the inventory by adding, updating, or deleting car entries as needed.
+4. **Import/Export Data**: Import car inventory data from CSV files or export data for backup or analysis purposes.
+
+## Contributing
+
+Contributions to Honest AC Car Management are welcome! If you'd like to contribute, please follow the steps below:
+
+1. Fork the repository on GitHub.
+2. Make your changes or additions in a feature branch.
+3. Submit a pull request with a clear description of your changes and any related issues.
+
+## License
+
+Car Management is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+---
+
+Thank you for choosing Honest AC Car Management for your car inventory needs!
